@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    overflow-x: hidden;
+}
+.homepage{
+    background-color:#367588;
+}
+.navbarr{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 30px;
+}
+.nav-1:hover,.nav-2:hover,.nav-3:hover,.nav-4:hover,.nav-5:hover{
+ color: brown;
+ font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    color: rgb(46, 43, 43);
+    margin: 20px;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.main-1{
+ margin: 70px 0px 0px 150px;   
+ 
+}
+span{
+    color:#d3d3d3;
+}
+.subdiv-1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.3cm;
+    font-family: "Libre Baskerville", serif;
+}
+.subdiv-2{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.2cm;
+}
+.details{
+    color: #d3d3d3;
+    font-family: "Libre Baskerville", serif;
+}
+.charecter img{
+    height: 700px;
+    width:500px;
+    margin: -580px 0px 0px 600px;
+    opacity: 0.2;
+}
+.charecter img:hover{
+ opacity: 1;
+}
+
+
+/* Professional */
+#banner1{
+    background: url('./andrew-neel-cckf4TsHAuw-unsplash.jpg') no-repeat 0 0;
+    background-size: cover;
+    opacity: 0.2;
+    height: 800px;
+}
+.backgroundimg img{
+    opacity: 0.2;
+    height: 800px;
+    width: 1349px;
+}
+.progresss{
+    margin-top: -1000px;
+    position: sticky;
+    z-index: 3;
+}
+p { 
+    font-size: 20px; 
+} 
+
+.my_skills{
+    margin: 0px 0px 0px 150px;
+}
+.my_skills p{
+    font-weight: bold;
+
+}
+.containerr { 
+    background-color: rgb(250, 250, 250); 
+    width: 80%; 
+    margin: -10px 0px 20px 10px;
+    border-radius: 15px; 
+} 
+.skill { 
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 0%; 
+    text-align: right; 
+    font-size: 15px; 
+    border-radius: 15px; 
+    height: 20px;
+} 
+.html { 
+    width: 90%; 
+} 
+.css { 
+    width: 85%; 
+} 
+.bootstrap { 
+    width: 80%; 
+} 
+.javascript { 
+    width: 70%; 
+} 
+.react { 
+    width: 60%; 
+} 
+.node { 
+    width: 60%; 
+} 
+.mongo { 
+    width: 60%; 
+} 
+.Prog_heading1{
+    text-decoration: underline;
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.1cm;
+}
+.Prog_heading2{
+    display: flex;
+    color: #d3d3d3;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+/* Portfolio */
+
+.main2{
+    background-color: #367588;
+    height: 950px;
+    margin: -20px 0px 0px 0px;
+}
+.Port_heading2 a{
+    text-decoration: none;
+    color: #d3d3d3;
+}
+.Port_heading1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 0.1cm;
+    padding-top: 8%;
+}
+.Port_heading2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+#workimg{
+    margin: 20px 0px 50px 0px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#workimg img{
+    width: 440px;
+    height: 260px; 
+    margin-top: 35px;
+    border-radius: 35px;
+} 
+
+
+/* Contact */
+#banner2{
+    background: url('./thought-catalog-505eectW54k-unsplash.jpg') no-repeat 0 0;
+    background-size: cover;
+    margin-top: -145px;
+    height: 900px;
+    opacity: 0.3;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -900px 0px 0px 0px;
+    height: 900px;
+    background-size: cover;
+    background-color: #367588;
+    color: #d3d3d3;
+
+}
+.cont{
+    display: flex;
+    margin: 400px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 30px ;
+    position: sticky;
+    z-index: 1;
+}
+.col-md-4{
+    justify-content: center;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+.col-md-4 span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.formm input {
+    margin: 10px;
+    position: sticky;
+    z-index: 4;
+}
+#name{
+    height: 40px;
+    width: 165px;
+}
+#email{
+    height: 40px;
+    width: 165px;
+}
+#number{
+    height: 40px;
+    width: 355px;
+}
+#comment{
+    margin: 10px;
+    width: 355px;
+    position: sticky;
+    z-index: 4;
+}
+button{
+    background-color: rgb(92, 172, 0);
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    width: 355px;
+    color: #d3d3d3;
+    position: sticky;
+    z-index: 4;
+}
+.cont-no{
+    color: #d3d3d3;
+    margin-top: -190px;
+    display: flex;
+    justify-content: center;
+}
+.iconss{
+    display: flex;
+    justify-content: center;
+    text-align:center;    
+}
+.iconss i{
+    font-weight: bolder;
+    margin: 10px;
+    margin-top: 30px;
+    color: #d3d3d3;
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 769px) { 
+    .nav-1,.nav-2,.nav-3,.nav-4,.nav-5{
+        font-size: 14px;
+        margin: 5px;
+    }
+    .homepage{
+        background-color:#367588;
+    }
+    .main-1{
+        margin: 50px 0px 0px 60px;   
+        
+       }
+       span{
+           color:#d3d3d3;
+       }
+       .subdiv-1{
+           font-size: 40px;
+           letter-spacing: 0.2cm;
+       }
+       .subdiv-2{
+           font-size: 25px;
+           letter-spacing: 0.1.5cm;
+       }
+    .charecter img{
+        display: none;
+    }
+
+
+
+    .backgroundimg img{
+        opacity: 0.;
+        height: 800px;
+        width: 412px;
+    }
+    .progresss{
+        margin-top: -1000px;
+        position: sticky;
+        z-index: 3;
+    }
+    p { 
+        font-size: 15px; 
+    } 
+    
+    .my_skills{
+        margin: 0px 0px 0px 50px;
+    }
+    .containerr { 
+        background-color: rgb(192, 192, 192); 
+        width: 80%; 
+        margin: -10px 0px 20px 0px;
+        border-radius: 15px; 
+    } 
+    .Prog_heading1{
+        font-size: 40px;
+    }
+    .Prog_heading2{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+
+
+    .main2{
+        margin: -21px 0px 0px 0px;
+        height: 1390px;
+    }
+    .Port_heading1{
+        font-size: 40px;
+        padding-top: 28%;
+    }
+    .Port_heading2{
+        margin-top: 20px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #workimg img{
+        width: 330px;
+        height: 180px; 
+    } 
+
+
+
+
+   
+    .contact{
+        margin: -1050px 0px 0px 0px;
+        height: 1050px;
+    }
+    .cont{
+        margin: 950px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .cont-no{
+        color: #d3d3d3;
+        margin-top: -180px;
+    }
+ }
